@@ -123,10 +123,10 @@ function createEnemy(){ //적군 생성
 
 function update(){
     if( 39 in keysDown){
-        spaceshipX += 2;    //우주선 이동속도
+        spaceshipX += 4;    //우주선 이동속도
     } //right
     if ( 37 in keysDown){
-        spaceshipX -= 2;
+        spaceshipX -= 4;
     } //left
 
     if(spaceshipX <= 0){
